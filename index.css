@@ -277,8 +277,12 @@ img {
 
 /* ===== SKILLS =====*/
 .skills__container {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center; 
     row-gap: 2rem;
     text-align: center;
+    position: relative;
 }
 
 .skills__subtitle {
@@ -331,11 +335,43 @@ img {
 }
 
 .skills__js {
-    width: 65%;
+    width: 75%;
 }
 
 .skills__ux {
     width: 85%;
+}
+
+.skills__mysql {
+    width: 80%;
+}
+
+.skills__php {
+    width: 70%;
+}
+
+.skills__springboot {
+    width: 70%;
+}
+
+.skills__flask {
+    width: 70%;
+}
+
+.skills__expressjs {
+    width: 60%;
+}
+
+.skills__selenium {
+    width: 75%;
+}
+
+.skills__java {
+    width: 80%;
+}
+
+.skills__python {
+    width: 90%;
 }
 
 .skills__img {
